@@ -1,9 +1,9 @@
 import { Client } from "discord.js";
-interface Config {
+interface BotConfig {
     bot_token: string
 }
 
-export function startBot(config: Config) {
+export function startBot(config: BotConfig) {
     const client = new Client({});
 
     client.once("ready", () => {
@@ -21,7 +21,6 @@ export function startBot(config: Config) {
 
     // Register handlers here
     // TODO
-    
 
     client.login(config.bot_token).catch(() => {
         console.log("Bot failed to login.");

@@ -2,5 +2,5 @@ import { startBot } from "./bot/bot";
 
 console.log("Typescript application loaded.");
 startBot({ // TODO: Implement
-    bot_token: "" // TODO: Load from .env
+    bot_token: ""
 });
