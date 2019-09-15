@@ -1,0 +1,28 @@
+{
+  "name": "collective-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot/bot.ts",
+  "scripts": {
+    "start": "node src/standaloneLauncher.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radbuglet/collective-bot.git"
+  },
+  "author": "Riley Denoyer <radbuglet@coopfury.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Radbuglet/collective-bot/issues"
+  },
+  "homepage": "https://github.com/Radbuglet/collective-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4"
+  }
+}
