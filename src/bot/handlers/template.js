@@ -1,0 +1,1 @@
+// A template handler to work with the handlers system in /src/bot.ts

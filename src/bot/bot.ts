@@ -21,6 +21,7 @@ export function startBot(config: Config) {
 
     // Register handlers here
     // TODO
+    
 
     client.login(config.bot_token).catch(() => {
         console.log("Bot failed to login.");
