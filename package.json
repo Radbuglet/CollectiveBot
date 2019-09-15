@@ -19,10 +19,12 @@
   "homepage": "https://github.com/Radbuglet/collective-bot#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.6.2"
   },
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
     "@types/node": "^12.7.4"
   }
 }

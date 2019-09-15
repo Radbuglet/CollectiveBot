@@ -3,7 +3,7 @@ interface BotConfig {
     bot_token: string
 }
 
-export function startBot(config: BotConfig) {
+export function startBot(config: BotConfig) { // TODO: Get a logger. Make this return a promise.
     const client = new Client({});
 
     client.once("ready", () => {
